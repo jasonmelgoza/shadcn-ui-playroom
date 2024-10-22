@@ -26,6 +26,7 @@ import {
   FolderCheck,
   Github,
   Hash,
+  Heart,
   Image,
   Indent,
   Link,
@@ -79,6 +80,7 @@ export type IconName =
   | 'folderCheck'
   | 'github'
   | 'hash'
+  | 'heart'
   | 'image'
   | 'indent'
   | 'link'
@@ -131,6 +133,7 @@ export const iconMap = {
   folderCheck: FolderCheck,
   github: Github,
   hash: Hash,
+  heart: Heart,
   image: Image,
   indent: Indent,
   link: Link,
